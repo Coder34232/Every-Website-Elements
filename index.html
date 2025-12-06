@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete HTML Elements Reference</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    section { margin-bottom: 50px; }
+    h1, h2 { border-bottom: 2px solid #333; padding-bottom: 5px; }
+    h3 { margin-top: 20px; }
+    pre, code { background: #f4f4f4; padding: 5px; display: block; }
+    table, th, td { border: 1px solid #333; border-collapse: collapse; padding: 5px; margin-top: 10px; }
+    img, video, audio, iframe { display: block; margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<h1>Complete HTML Elements Reference</h1>
+
+<!-- Text Elements -->
+<section>
+<h2>Text & Inline Elements</h2>
+<p>This is <strong>strong</strong>, <b>bold</b>, <em>emphasized</em>, <i>italic</i>, <mark>highlighted</mark>, <small>small</small>, <del>deleted</del>, <ins>inserted</ins>, <sub>subscript</sub>, <sup>superscript</sup>, <u>underlined</u>, <abbr title="Abbreviation">abbr</abbr>, <cite>citation</cite>, <code>code</code>, <var>variable</var>, <s>strikethrough</s>, <time datetime="2025-12-06">time</time>, <samp>samp</samp>, <kbd>keyboard</kbd>, <q cite="#">quote</q></p>
+<pre>Preformatted text</pre>
+<blockquote cite="https://example.com">Blockquote example</blockquote>
+<hr>
+</section>
+
+<!-- Headings -->
+<section>
+<h2>Headings</h2>
+<h1>H1 Heading</h1>
+<h2>H2 Heading</h2>
+<h3>H3 Heading</h3>
+<h4>H4 Heading</h4>
+<h5>H5 Heading</h5>
+<h6>H6 Heading</h6>
+</section>
+
+<!-- Lists -->
+<section>
+<h2>Lists</h2>
+<h3>Unordered List</h3>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+<h3>Ordered List</h3>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+<h3>Definition List</h3>
+<dl>
+<dt>Term 1</dt>
+<dd>Definition 1</dd>
+<dt>Term 2</dt>
+<dd>Definition 2</dd>
+</dl>
+</section>
+
+<!-- Links & Media -->
+<section>
+<h2>Links & Media</h2>
+<a href="https://example.com">Link Example</a>
+<img src="https://via.placeholder.com/150" alt="Placeholder Image">
+<video controls width="320">
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+Your browser does not support video.
+</video>
+<audio controls>
+<source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+<iframe src="https://example.com" width="300" height="150"></iframe>
+<map name="map">
+<area shape="rect" coords="0,0,100,100" href="#">
+</map>
+<canvas width="200" height="100" style="border:1px solid #000;"></canvas>
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+</section>
+
+<!-- Forms -->
+<section>
+<h2>Forms & Input</h2>
+<form>
+<label for="text">Text Input:</label>
+<input type="text" id="text" name="text"><br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password"><br><br>
+
+<label for="number">Number:</label>
+<input type="number" id="number"><br><br>
+
+<label for="date">Date:</label>
+<input type="date" id="date"><br><br>
+
+<label for="color">Color:</label>
+<input type="color" id="color"><br><br>
+
+<label>Radio:</label>
+<input type="radio" name="radio"> Option 1
+<input type="radio" name="radio"> Option 2<br><br>
+
+<label>Checkbox:</label>
+<input type="checkbox"> Check me<br><br>
+
+<label for="file">File:</label>
+<input type="file" id="file"><br><br>
+
+<label for="select">Select:</label>
+<select id="select">
+<option>Option 1</option>
+<option>Option 2</option>
+</select><br><br>
+
+<label for="textarea">Textarea:</label><br>
+<textarea id="textarea" rows="4" cols="50"></textarea><br><br>
+
+<button type="submit">Submit</button>
+</form>
+</section>
+
+<!-- Tables -->
+<section>
+<h2>Tables</h2>
+<table>
+<thead>
+<tr><th>Header 1</th><th>Header 2</th></tr>
+</thead>
+<tbody>
+<tr><td>Cell 1</td><td>Cell 2</td></tr>
+<tr><td>Cell 3</td><td>Cell 4</td></tr>
+</tbody>
+<tfoot>
+<tr><td>Footer 1</td><td>Footer 2</td></tr>
+</tfoot>
+</table>
+</section>
+
+<!-- Semantic Sections -->
+<section>
+<h2>Semantic Elements</h2>
+<header><h3>Header Example</h3></header>
+<nav><ul><li><a href="#">Nav 1</a></li><li><a href="#">Nav 2</a></li></ul></nav>
+<article><h3>Article Example</h3><p>Content inside article</p></article>
+<aside><h3>Aside Example</h3><p>Sidebar content</p></aside>
+<footer><p>Footer content</p></footer>
+<main><p>Main content</p></main>
+<figure><img src="https://via.placeholder.com/100" alt="Figure"><figcaption>Caption</figcaption></figure>
+</section>
+
+<!-- Interactive & Other Elements -->
+<section>
+<h2>Interactive & Deprecated Elements</h2>
+<details>
+<summary>Details summary</summary>
+<p>Hidden content</p>
+</details>
+<dialog open>Dialog example</dialog>
+<menu>
+<li>Menu item 1</li>
+<li>Menu item 2</li>
+</menu>
+<fieldset><legend>Fieldset</legend>Fields here</fieldset>
+<progress value="50" max="100"></progress>
+<meter value="0.6">60%</meter>
+<template><p>This is a template element</p></template>
+<noscript>JavaScript is disabled</noscript>
+<abbr title="Abbreviation">abbr</abbr>
+<bdi>Bidirectional text</bdi>
+<bdo dir="rtl">Right to left</bdo>
+<time datetime="2025-12-06">Current date</time>
+<address>Address content</address>
+</section>
+
+</body>
+</html>
